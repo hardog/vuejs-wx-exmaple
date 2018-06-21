@@ -1,0 +1,49 @@
+{
+  "name": "vuejs-example",
+  "version": "1.0.0",
+  "description": "vuejs example with route vuex",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-serve --open",
+    "build": "NODE_ENV=production webpack --config webpack.config.js --progress --display minimal",
+    "compile": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hardog/vuejs-example.git"
+  },
+  "author": "hardog",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hardog/vuejs-example/issues"
+  },
+  "homepage": "https://github.com/hardog/vuejs-example#readme",
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "css-loader": "^0.28.11",
+    "exports-loader": "^0.7.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-inline-source-plugin": "0.0.10",
+    "html-webpack-plugin": "^3.1.0",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "optimize-css-assets-webpack-plugin": "^4.0.2",
+    "script-loader": "^0.7.2",
+    "style-loader": "^0.20.3",
+    "url-loader": "^1.0.1",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-serve": "^1.0.4"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "normalize.css": "^8.0.0",
+    "vue": "^2.5.16",
+    "vue-loader": "^15.2.1",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "zepto": "^1.2.0"
+  }
+}

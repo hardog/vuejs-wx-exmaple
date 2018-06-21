@@ -1,0 +1,13 @@
+## start record http log!
+[2018-06-19 21:21:43.725] [INFO] http - GET /sockjs-node/info?t=1529414503710 404 - - 3.642 ms
+
+[2018-06-19 21:21:45.789] [INFO] http - GET /sockjs-node/info?t=1529414505786 404 - - 0.365 ms
+
+[2018-06-19 21:21:46.124] [INFO] http - GET / 404 - - 0.247 ms
+
+[2018-06-19 21:21:48.920] [INFO] http - GET /dist 200 - - 0.190 ms
+
+[2018-06-19 21:21:48.930] [INFO] http - GET /main.201a3697d7a939149b31.css 404 - - 0.205 ms
+
+[2018-06-19 21:21:48.931] [INFO] http - GET /index.js 404 - - 0.144 ms
+
